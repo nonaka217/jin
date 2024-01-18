@@ -17,23 +17,23 @@ public class J9_5 {
         remainder(x, y);
     }
 
-    static void addition(int x, int y){
+    public static void addition(int x, int y){
         System.out.println(x + "+" + y + "=" + (x + y));
     }
 
-    static void subtraction(int x, int y){
+    public static void subtraction(int x, int y){
         System.out.println(x + "-" + y + "=" + (x - y));
     }
 
-    static void multiplication(int x, int y){
+    public static void multiplication(int x, int y){
         System.out.println(x + "*" + y + "=" + x * y);
     }
 
-    static void division(int x, int y){
+    public static void division(int x, int y){
         System.out.println(x + "/" + y + "=" + x / y);
     }
 
-    static void remainder(int x, int y){
+    public static void remainder(int x, int y){
         System.out.println(x + "%" + y + "=" + x % y);
     }
 
