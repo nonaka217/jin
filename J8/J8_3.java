@@ -18,7 +18,7 @@ class J8_3 {
                 even_num[count1] = x;
                 count1 += 1;
             }
-            else if (x % 2 == 0){
+            else if (x % 2 == 1){
                 odd_num[count2] = x;
                 count2 += 1;
             }

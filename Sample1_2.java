@@ -1,4 +1,5 @@
 import java.util.List;
+import java.util.ArrayList;
 
 class Sample1_2 {
 
@@ -28,7 +29,7 @@ class Sample1_2 {
         System.out.print(text);
 
         for (int val : list){
-            System.out.print(val + " ";)
+            System.out.print(val + " ");
         }
 
         System.out.println();
