@@ -1,7 +1,7 @@
 import java.util.List;
 import java.util.ArrayList;
 
-class Sample1_2 {
+public class Sample1_2 {
 
     public static void main(String[] args){
 

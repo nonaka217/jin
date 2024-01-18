@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Max3Method {
+public class Max3Method {
 
     static int max(int a, int b, int c){
         int max = a;

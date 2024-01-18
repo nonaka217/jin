@@ -1,4 +1,4 @@
-class SumAve1 {
+public class SumAve1 {
     
     public static void main(String[] args){
         int x;

@@ -1,7 +1,7 @@
 import java.util.Map;
 import java.util.HashMap;
 
-class Sample1_18 {
+public class Sample1_18 {
 
     public static void main(String[] args){
         Map<String, String> map = new HashMap<>();

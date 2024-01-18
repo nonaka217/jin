@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Scanner;
 
-class Kazuate {
+public class Kazuate {
 
     public static void main(String[] args){
         Random rand = new Random();

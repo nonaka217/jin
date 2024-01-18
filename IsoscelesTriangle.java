@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class IsoscelesTriangle {
+public class IsoscelesTriangle {
 
     public static void main(String[] args){
         Scanner stdIn = new Scanner(System.in, "Shift-JIS");
