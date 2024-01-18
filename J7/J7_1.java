@@ -1,4 +1,4 @@
-class J7_1 {
+public class J7_1 {
 
     public static void main(String[] args){
         int n = 1;

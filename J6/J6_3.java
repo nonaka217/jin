@@ -1,4 +1,4 @@
-class J6_3 {
+public class J6_3 {
 
     public static void main(String[] args){
 

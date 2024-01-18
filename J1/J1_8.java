@@ -1,4 +1,4 @@
-class J1_8 {
+public class J1_8 {
 
     public static void main(String[] args){
         System.out.print("吾輩は猫である。");

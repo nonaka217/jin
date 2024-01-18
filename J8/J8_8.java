@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Sample8_8 {
+public class J8_8 {
     public static void main(String[] args){
         Scanner stdIn = new Scanner(System.in);
 

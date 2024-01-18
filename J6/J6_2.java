@@ -1,4 +1,4 @@
-class J6_2 {
+public class J6_2 {
 
     public static void main(String[] args){
         int num = 0;

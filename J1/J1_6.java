@@ -1,4 +1,4 @@
-class J1_6 {
+public class J1_6 {
 
     public static void main(String[] args){
         String capital = "東京";

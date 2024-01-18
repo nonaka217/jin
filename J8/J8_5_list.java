@@ -2,7 +2,7 @@ import java.util.List;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-class J8_5_list {
+public class J8_5_list {
 
     public static void main(String[] args){
 

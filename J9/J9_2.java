@@ -1,4 +1,4 @@
-class J9_2 {
+public class J9_2 {
 
     public static void main(String[] args){
         hello();

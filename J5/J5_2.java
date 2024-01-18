@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class J5_2 {
+public class J5_2 {
 
     public static void main(String[] args){
         Scanner stdIn = new Scanner(System.in, "Shift-JIS");

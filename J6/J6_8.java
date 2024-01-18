@@ -1,4 +1,4 @@
-class J6_8 {
+public class J6_8 {
 
     public static void main(String[] args){
         for (int x = 9; x >= 1; x--){
