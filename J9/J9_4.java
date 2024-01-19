@@ -12,7 +12,7 @@ public class J9_4 {
         System.out.print(y + "の9倍は" + multiple(x) + "です。");
     }
 
-    public static int multiple(int x){
+    static int multiple(int x){
         int multiple = x * 3;
         return multiple;
     }
