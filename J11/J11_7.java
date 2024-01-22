@@ -6,6 +6,7 @@ public class J11_7 {
         Student B = new Student("Bさん", 002, 80, 95, 64);
         Student C = new Student("Cさん", 003, 70, 80, 98);
 
+        // 学生番号・名前・平均点を表示
         A.test_ave();
         System.out.println();
         B.test_ave();
