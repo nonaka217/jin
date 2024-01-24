@@ -13,11 +13,11 @@ class Calculator {
     int getY() { return y; }
 
     void calcSum() {
-        System.out.println("Sum" + x + "and" + y + " = " + (x + y));
+        System.out.println("Sum " + x + " and " + y + " = " + (x + y));
     }
 
     void caluAve() {
-        System.out.println("Ave" + x + "and" + y + " = " + (x + y) / 2);
+        System.out.println("Average " + x + " and " + y + " = " + (x + y) / 2);
     }
 }
 
@@ -25,7 +25,7 @@ class MoreCalc extends Calculator {
     MoreCalc(int x, int y) { super(x, y); }
 
     void caluPow(){
-        super.calcSum(); super.caluAve(); System.out.print("Pow" + x + "and" + y + " = " + (int)Math.pow(x, y));
+        super.calcSum(); super.caluAve(); System.out.print("Power " + x + " of " + y + " = " + (int)Math.pow(x, y));
     }
 }
 
@@ -38,7 +38,6 @@ public class J12_1 {
         System.out.print("整数を入力してください：");
         int y = stdIn.nextInt();
 
-        Calculator a = new Calculator(x, y);
         MoreCalc b = new MoreCalc(x, y);
 
         b.caluPow();
