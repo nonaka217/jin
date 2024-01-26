@@ -2,7 +2,7 @@ package J14;
 
 import java.util.Scanner;
 
-public class J14_1 {
+public class J14_3 {
 
     public static void main(String[] args) {
         Scanner stdIn = new Scanner(System.in, "Shift-JIS");
@@ -10,7 +10,10 @@ public class J14_1 {
         System.out.print("文字列を入力：");
         String str = stdIn.next();
 
-        String str2 = str;
-        System.out.print(str2);
+        StringBuilder sb = new StringBuilder(str);
+
+        sb.delete(10, str.length());
+        String str2 = sb.toString();
+        System.out.print("結果文字列：" + str2);
     }
 }
