@@ -1,6 +1,6 @@
 class Person {
-    String name;
-    String job;
+    public String name;
+    public String job;
 
     Person(String name, String job) { this.name = name; this.job = job; }
 
@@ -10,41 +10,41 @@ class Person {
     String getName() { return name; }
     String getJob() { return job; }
 
-    void construct() {
+    public void introduce() {
         System.out.println("氏名：" + name);
         System.out.println("職業：" + job);
     }
 }
 
 class Teacher extends Person {
-    String subject;
+    public String subject;
 
     Teacher(String name, String job, String subject) { super(name, job); this.subject = subject; }
 
-    void construct() {
-        super.construct(); System.out.println("担当科目：" + subject);
+    public void introduce() {
+        super.introduce(); System.out.println("担当科目：" + subject);
     }
 }
 
 class Cook extends Person {
-    String specialities;
+    public String specialities;
 
     Cook(String name, String job, String specialities) { super(name, job); this.specialities = specialities; }
 
-    void construct() {
-        super.construct(); System.out.println("得意料理：" + specialities);
+    public void introduce() {
+        super.introduce(); System.out.println("得意料理：" + specialities);
     }
 }
 
 public class J12_2 {
 
     public static void main(String[] args){
-        Teacher a = new Teacher("近藤勇", "教員", "Go言語");
-        a.construct();
+        Teacher t = new Teacher("近藤勇", "教員", "Go言語");
+        t.introduce();
 
         System.out.println();
 
-        Cook b = new Cook("沖田総司", "シェフ", "オムライス");
-        b.construct();
+        Cook c = new Cook("沖田総司", "シェフ", "オムライス");
+        c.introduce();
     }
 }
