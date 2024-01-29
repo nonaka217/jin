@@ -6,14 +6,14 @@ public class J9_4 {
         Scanner stdIn = new Scanner(System.in , "Shift-JIS");
 
         System.out.print("整数を入力してください：");
-        int x = stdIn.nextInt();
-        int y = x;
+        int num = stdIn.nextInt();
+        int num2 = multiple(num);
 
-        System.out.print(y + "の9倍は" + multiple(x) + "です。");
+        System.out.print(num + "の9倍は" + multiple(num2) + "です。");
     }
 
-    static int multiple(int x){
-        int multiple = x * 3;
-        return multiple;
+    static int multiple(int num){
+        int num3 = num * 3;
+        return num3;
     }
 }
