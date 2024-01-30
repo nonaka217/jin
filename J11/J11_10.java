@@ -22,7 +22,8 @@ class BookInfo {
     private String book;
     private String name;
     private int year;
-    public static int no;
+    public static int no1;
+    public int no2;
 
     //--- コンストラクタ ---//
     BookInfo(String book, String name, int year){
@@ -43,10 +44,11 @@ class BookInfo {
 
     //--- 書籍情報表示メソッド ---//
     void bookinfo(){
-        no++;
+        no1++;
+        no2 = no1;
         System.out.println("書　　名:" + book);
         System.out.println("著 者 名:" + name);
         System.out.println("出 版 年:" + year);
-        System.out.println("書籍番号:" + no);
+        System.out.println("書籍番号:" + no1);
     }
 }
