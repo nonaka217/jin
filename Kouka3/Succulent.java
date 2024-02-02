@@ -7,7 +7,7 @@ public class Succulent implements Explanation {
     private String upbringing; // 育て方 変数
 
     // コンストラクタ
-    public Succulent(String growth, String plant_name, String upbringing) {
+    Succulent(String growth, String plant_name, String upbringing) {
         this.growth = growth;
         this.plant_name = plant_name;
         this.upbringing = upbringing;
