@@ -16,17 +16,17 @@ public class End {
         while (true) {
             try {
                 String menu = stdIn.nextLine(); // 入力
-                int menu_int = Integer.valueOf(menu); // 数値に変換
+                int menuInt = Integer.valueOf(menu); // 数値に変換
         
-                if (menu_int == 1) {
+                if (menuInt == 1) {
                     System.out.println("\nプログラムを終了します。\nご利用ありがとうございました。");
                     System.exit(0); // プログラム終了
 
-                } else if (menu_int == 2) {
+                } else if (menuInt == 2) {
                     System.out.println("\n----------------------------------------------------------\n");
                     // TOPのメニュー選択に戻る
-                    Visual_encyclopedia ve = new Visual_encyclopedia(); // インスタンス生成
-                    ve.visual_E(); // メソッドの呼び出し
+                    VisualEncyclopedia ve = new VisualEncyclopedia(); // インスタンス生成
+                    ve.visualE(); // メソッドの呼び出し
 
                 } else {
                     // 1か2でなかった場合 再入力
