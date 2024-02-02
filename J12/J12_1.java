@@ -38,8 +38,8 @@ public class J12_1 {
         System.out.print("整数を入力してください：");
         int y = stdIn.nextInt();
 
-        MoreCalc b = new MoreCalc(x, y);
+        MoreCalc a = new MoreCalc(x, y);
 
-        b.caluPow();
+        a.caluPow();
     }
 }
