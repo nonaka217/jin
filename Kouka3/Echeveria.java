@@ -47,6 +47,7 @@ public class Echeveria extends Succulent {
         System.out.println("4:" + echeveria4);
         System.out.println(explanation4 + "\n");
 
+        // メニュー選択
         System.out.println("メニュー選択");
         System.out.print("\n1.検索を続ける 2.終了\ninput > ");
 
