@@ -18,9 +18,9 @@ public class Succulent implements Explanation {
     // 説明メソッドの実装
     public void explanation() {
         Scanner stdIn = new Scanner(System.in, "Shift-JIS");
-        System.out.println("【生育型：" + growth + "】\n");
-        System.out.println(plant_name + "の育て方");
-        System.out.println(upbringing);
+        System.out.println("【生育型：" + growth + "】\n"); // 生育(タイプ)
+        System.out.println(plant_name + "の育て方"); // 植物名
+        System.out.println(upbringing); // 育て方
 
         System.out.println("メニュー選択");
         System.out.print("\n1.検索を続ける 2.終了\ninput > ");
